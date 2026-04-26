@@ -5,12 +5,13 @@
 // more14([1, 4, 1, 4]) → false
 // more14([1, 1]) → true
 
-int count1 = 0;
-  int count4 = 0;
-
-  for (int num : nums) {
-    if (num == 1) count1++;
-    if (num == 4) count4++;
+public boolean more14(int[] nums) {
+  int cone = 0;
+  int cfour = 0;
+  for(int i = 0;i<nums.length;i++){
+    if(nums[i]==1)cone++;
+    if(nums[i]==4)cfour++;
+    
   }
-
-  return count1 > count4;
+  return cone>cfour;
+}
