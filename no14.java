@@ -5,3 +5,10 @@
 // no14([1, 2, 3]) → true
 // no14([1, 2, 3, 4]) → false
 // no14([2, 3, 4]) → true
+
+public boolean no14(int[] nums) {
+   for(int i=0;i<nums.length;i++){
+    if(nums[i]!=1 && nums[i]!=4) return false;
+}
+return true;
+}
