@@ -5,12 +5,13 @@
 // sum28([2, 3, 2, 2, 4, 2, 2]) → false
 // sum28([1, 2, 3, 4]) → false
 
- int sum = 0;
-
-  for (int i = 0; i < nums.length; i++) {
-    if (nums[i] == 2) {
-      sum += 2;
+public boolean sum28(int[] nums) {
+  int c = 0;
+  for(int i=0;i<nums.length;i++){
+    if(nums[i]==2){
+     c++;
     }
+    
   }
-
-  return sum == 8;
+  return c==4;
+}
