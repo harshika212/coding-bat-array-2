@@ -2,8 +2,10 @@
 
 
 // has22([1, 2, 2]) → true
-// has22([1, 2, 1, 2]) → false
+// has22([1, 2, 1, 2]) → false 
 // has22([2, 1, 2]) → false
+
+
 
 
 public boolean has22(int[] nums) {
