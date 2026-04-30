@@ -7,6 +7,8 @@
 // centeredAverage([-10, -4, -2, -4, -2, 0]) → -3
 
 
+
+
   int sum = 0;
   int min = nums[0];
   int max = nums[0];
